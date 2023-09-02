@@ -21,7 +21,14 @@ const Home: NextPage = () => {
           <h1>MUI5 + Next.js 12</h1>
         </header>
         <section>
-          <Button className={styles.button} variant={"contained"}>
+          <Button
+            sx={{
+              padding: "20px",
+              backgroundColor: "red",
+            }}
+            // className={styles.button}
+            variant={"contained"}
+          >
             Hello MUI
           </Button>
           <Button variant={"contained"}>Hello MUI</Button>
