@@ -7,13 +7,14 @@ import styles from "../src/button.module.css";
 const Home: NextPage = () => {
   return (
     <main
-      style={{
-        width: "100vw",
-        height: "100vh",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
+      className={styles.main}
+      // style={{
+      //   width: "100vw",
+      //   height: "100vh",
+      //   display: "flex",
+      //   justifyContent: "center",
+      //   alignItems: "center",
+      // }}
     >
       <div>
         <header>
