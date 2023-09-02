@@ -9,7 +9,7 @@ import type { DocumentContext, DocumentInitialProps } from "next/document";
 export default class _Document extends Document {
   render() {
     return (
-      <Html lang="ko">
+      <Html lang="ru">
         <Head>
           <meta name="theme-color" content={theme.palette.primary.main} />
           <link rel="shortcut icon" href="/static/favicon.ico" />
